@@ -1,0 +1,17 @@
+<h1 class="to-upper">portfolio</h1>
+<div id="portfolio-container" ng-controller="portfolioController">
+    <!-- <div class="container-page">
+        <p class="text-hidden">Calculadora fotovoltaica</p>
+        <a class="link-page" href="https://jonaycastro.github.io/CalculadoraFotovoltaica/" target="_blank" rel="noopener noreferrer">
+            <img class="img-page" src="assets/img/fotovoltaica.jpg" alt="imagen fotovoltaica">
+        </a>
+    </div> -->
+    <div class="container-page" ng-repeat="enlace in enlaces">
+        <p class="text-hidden">{{enlace[1]}}</p>
+        <a class="link-page" href={{enlace[0]}} target="_blank" rel="noopener noreferrer">
+            <img class="img-page" src={{enlace[2]}} alt="imagen fotovoltaica">
+        </a>
+    </div>
+    
+
+</div>

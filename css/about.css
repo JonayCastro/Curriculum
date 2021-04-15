@@ -1,0 +1,11 @@
+@import url('index.css');
+
+#line{
+    width: 40%;
+    border:2px solid var(--border-menu-color);
+    margin: 0;
+}
+
+#about-text{
+    text-justify: auto;
+}

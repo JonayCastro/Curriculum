@@ -1,0 +1,30 @@
+@keyframes blur {
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+.blur.ng-animate{
+    animation-name: blur;
+    animation-duration: .5s;
+    animation-timing-function: ease-in;
+}
+.ng-enter{
+    animation-name: blur;
+    animation-duration: 1s;
+}
+.item-social{
+    transition: all .5s;
+}
+.item-social:hover{
+    transform: scale(2);
+    vertical-align: top;
+}
+#btn-change-data{
+    transition: all .25s ease-in;
+}
+#btn-change-data:hover{
+    transform: scale(1.1);
+}
+
+
+
+

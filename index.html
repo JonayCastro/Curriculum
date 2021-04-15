@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="appAngular">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <!-- MY STYLES -->
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/header-up.css">
+    <link rel="stylesheet" href="css/header-down.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/portfolio.css">
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <title>Curriculum Vitae Jonay Castro</title>
+    <!-- FONTAWESOME -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <!-- ANGULARJS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <!-- NG-ROUTE -->
+    <script src="https://code.angularjs.org/1.8.2/angular-route.min.js"></script>
+    <!-- NG-ANIMATE -->
+    <script src="https://code.angularjs.org/1.8.2/angular-animate.min.js"></script>
+    <!-- ANGULAR SCRIPTS-->
+    <script src="angular/route.js"></script>
+    <!-- ANGULAR CONTROLLERS -->
+    <script src="angular/controller.js"></script>
+    <script src="angular/studyController.js"></script>
+    <script src="angular/sperienceController.js"></script>
+    <script src="angular/footerController.js"></script>
+    <script src="angular/portfolioController.js"></script>
+</head>
+<body  ng-controller="controller">
+    <header>
+        <div id="up-header" class="item-header">
+            <div id="social-header-container">
+                <div class="item-social-container">
+                    <a href="https://github.com/JonayCastro" target="_blank"><i class="fab fa-github-square item-social"></i></a>
+                </div>
+                <div class="item-social-container">
+                    <a href="#"><i class="fas fa-envelope item-social"></i></a>
+                </div>
+                <div class="item-social-container">
+                    <a href="#"><i class="fab fa-linkedin item-social"></i></a>
+                </div>
+            </div>
+            <div id="menu-header-container">
+                <ul>
+                    <li id="about" ng-click="nav($event)">SOBRE MI</li>
+                    <li id="experience" ng-click="nav($event)">EXPERIENCIA</li>
+                    <li id="study" ng-click="nav($event)">FORMACIÓN</li>
+                    <li id="portfolio" ng-click="nav($event)">PORTFOLIO</li>
+                </ul>
+            </div>
+        </div>
+        <div id="btn-container">
+            <button id="btn-change-data" ng-click="changeInfo(status=!status)"><i class="fas fa-sort-up"></i></button>
+        </div>
+        <div id="down-header" class="item-header">
+            <div id="image-container">
+                <img src="assets/photo.png" alt="Imagen de perfil">
+            </div>
+            
+            <div id="info-container">
+                <div id="info-container-up" class="container-flex-info">
+                    <h1 class="info-item left-info blur" id="name-info" ng-model="info"  ng-class="status">{{nameSpace}}<span> {{firstNameSpace}}</span></h1>
+                    <a href="mailto:zeven8540@gmail.com" class="info-item special-text">{{emailSpace}}</a>
+                </div>
+                <div id="info-container-down" class="container-flex-info">
+                    <h2 class="info-item left-info special-text blur" ng-class="status">{{workSpace}}</h2>
+                    <a href="tel:+34660520795" class="info-item special-text">{{phoneSpace}}</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main id="main-container" ng-view>
+        
+    </main>
+    <footer ng-controller="footerController">
+        <div id="copy-container">
+            <p>Jonay Z. Castro Suárez <span>|</span> Copyright&#169; 2021 MyCV</p>
+        </div>
+        <div id="service-container">
+            <button id="btn-print" ng-click="print()">Imprimir</button>
+        </div>
+    </footer>
+
+    
+</body>
+</html>

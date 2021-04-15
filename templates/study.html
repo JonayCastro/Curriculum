@@ -1,0 +1,55 @@
+<h1 class="to-upper">formación</h1>
+    
+<div class="main-container" ng-controller="studyController">
+    <div class="left-main-container">
+        <ul>
+            <li ng-click="goTo('reglados')">Formación Reglada</li>
+            <li ng-click="goTo('no-reglados')">Formación no Reglada</li>
+            <li ng-click="goTo('otros')">Otra Formación</li>
+        </ul>
+    </div>
+    <div class="right-main-container" id="scroll-main-container">
+        <div class="right-main-section">
+            <h2 id="reglados">Formación Reglada</h2>
+            <ul class="main-list">
+                <li ng-repeat="linea in reglados">
+                    <h3>Titulo: <span class="item-name to-capitalize">{{linea[0]}}</span></h3>
+                    <ul>
+                        <li>Inicio: <span class="to-capitalize">{{linea[1]}}</span></li>
+                        <li>Fin: <span class="to-capitalize">{{linea[2]}}</span></li>
+                        <li>Centro: <span class="to-capitalize">{{linea[3]}}</span></li>
+                        <li>Observaciones: <span class="to-capitalize">{{linea[4]}}</span></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="right-main-section">
+            <h2 id="no-reglados">Formación No Reglada</h2>
+            <ul class="main-list">
+                <li ng-repeat="linea in noReglados">
+                    <h3>Titulo: <span class="item-name to-capitalize">{{linea[0]}}</span></h3>
+                    <ul>
+                        <li>Inicio: <span class="to-capitalize">{{linea[1]}}</span></li>
+                        <li>Fin: <span class="to-capitalize">{{linea[2]}}</span></li>
+                        <li>Centro: <span class="to-capitalize">{{linea[3]}}</span></li>
+                        <li>Observaciones: <span class="to-capitalize">{{linea[4]}}</span></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="right-main-section">
+            <h2 id="otros">Otra Formación</h2>
+            <ul class="main-list">
+                <li ng-repeat="linea in otros">
+                    <h3>Titulo: <span class="item-name">{{linea[0]}}</span></h3>
+                    <ul>
+                        <li>Inicio: <span class="to-capitalize">{{linea[1]}}</span></li>
+                        <li>Fin: <span class="to-capitalize">{{linea[2]}}</span></li>
+                        <li>Centro: <span class="to-capitalize">{{linea[3]}}</span></li>
+                        <li>Observaciones: <span class="to-capitalize">{{linea[4]}}</span></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

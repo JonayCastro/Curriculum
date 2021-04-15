@@ -1,0 +1,50 @@
+@import url('index.css');
+
+footer{
+    height: 100px;
+    margin-bottom: -20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    vertical-align: middle;
+    font-size: 0.9rem;
+}
+#copy-container{
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+}
+#copy-container p{
+    margin-left: 20px;
+}
+#copy-container span{
+    color: var(--titles-color);
+    font-size: 1.2rem;
+}
+#service-container{
+    flex: 1;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+#btn-print{
+    background-color: var(--header-background-color);
+    border: none;
+    color: var(--text-color);
+    margin-right: 20px;
+}
+
+#btn-print::before{
+    content: "\2023";
+    color: var(--titles-color);
+    font-weight: bold;
+    display: inline-block; 
+    margin-right: 4px;
+}
+#btn-print:focus{
+    outline: none;
+}
+#btn-print:hover{
+    cursor: pointer;
+}

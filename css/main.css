@@ -1,0 +1,53 @@
+@import url('index.css');
+
+main{
+    width: 80%;
+    margin: 20px auto;
+}
+.main-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.left-main-container{
+    width: 20%;
+    height: 300px;
+    border-right: 2px solid var(--border-menu-color);
+    text-align: right;
+}
+.left-main-container ul{
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 auto auto;
+}
+.left-main-container ul li{
+    padding: 10px;
+    cursor: pointer;
+}
+.left-main-container ul li:hover{
+    background-color: var(--header-border-color);
+}
+.right-main-container{
+    height: 500px;
+    width: 80%;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+.right-main-section{
+    margin-left: 20px;
+    
+}
+.right-main-section:nth-child(2){
+    margin: 20px inherit;
+}
+.main-list h3{
+    background-color: var(--border-menu-color);
+    color: var(--text-color-second);
+    padding: 5px;
+}
+.main-list ul{
+    list-style: square inside;
+}
+.item-name{
+    text-transform: uppercase;
+}
