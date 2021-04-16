@@ -18,7 +18,6 @@ angular.module('appAngular', ['ngRoute', 'ngAnimate'])
             controller: 'controller'
         })
         .otherwise( {
-            templateUrl:'templates/about.html',
-            controller: 'controller'
+            redirectTo:'/'
         })
     });

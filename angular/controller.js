@@ -7,16 +7,26 @@ angular.module('appAngular')
         $scope.emailSpace = 'zeven8540@gmail.com';
         $scope.workSpace = 'Programador Web';
         $scope.phoneSpace = '660520795';
-
-        let pathEle = $location.path().replace('/','');
+        
+        /* let pathEle = $location.path().replace('/','');
         let array = ['about','experience','study', 'portfolio'];
-        for(i in array){
-            let ele = document.getElementById(array[i]);
-            ele.style.backgroundColor = 'var(--header-background-color)';
-            if(pathEle === array[i]){
-                ele.style.backgroundColor = 'var(--body-background-color)';
+        let ele;
+        if(pathEle === ''){
+            ele = document.getElementById('about');
+            ele.style.backgroundColor = 'var(--body-background-color)';
+        }else{
+            for(i in array){
+                ele = document.getElementById(array[i]);
+                ele.style.backgroundColor = 'var(--header-background-color)';
+                if(pathEle === array[i]){
+                    ele.style.backgroundColor = 'var(--body-background-color)';
+                }
             }
-        }
+        } */
+        
+        $scope.goPortfolio = ()=>{
+            $location.path('/portfolio');
+        };
         $scope.nav = (e)=>{
             path = e.target.id;
             if(path === 'about') $location.path('/about');

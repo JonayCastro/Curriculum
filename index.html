@@ -43,17 +43,17 @@
 <body  ng-controller="controller">
     <header>
         <div id="up-header" class="item-header">
-            <div id="social-header-container">
+            <!-- <div id="social-header-container">
                 <div class="item-social-container">
                     <a href="https://github.com/JonayCastro" target="_blank"><i class="fab fa-github-square item-social"></i></a>
                 </div>
-                <!-- <div class="item-social-container">
-                    <a href="#"><i class="fas fa-envelope item-social"></i></a>
-                </div> -->
                 <div class="item-social-container">
-                    <a href="#"><i class="fab fa-linkedin item-social"></i></a>
+                    <a href="#"><i class="fas fa-envelope item-social"></i></a>
                 </div>
-            </div>
+                <div class="item-social-container">
+                    <a href="https://www.linkedin.com/in/jonaycastro/"><i class="fab fa-linkedin item-social"></i></a>
+                </div>
+            </div> -->
             <div id="menu-header-container">
                 <ul>
                     <li id="about" ng-click="nav($event)">SOBRE MI</li>
@@ -74,11 +74,11 @@
             <div id="info-container">
                 <div id="info-container-up" class="container-flex-info">
                     <h1 class="info-item left-info blur" id="name-info" ng-model="info"  ng-class="status">{{nameSpace}}<span> {{firstNameSpace}}</span></h1>
-                    <a href="mailto:zeven8540@gmail.com" class="info-item special-text">{{emailSpace}}</a>
+                    <a href="mailto:zeven8540@gmail.com" class="info-item special-text my-link">{{emailSpace}}</a>
                 </div>
                 <div id="info-container-down" class="container-flex-info">
                     <h2 class="info-item left-info special-text blur" ng-class="status">{{workSpace}}</h2>
-                    <a href="tel:+34660520795" class="info-item special-text">{{phoneSpace}}</a>
+                    <a href="tel:+34660520795" class="info-item special-text my-link">{{phoneSpace}}</a>
                 </div>
             </div>
         </div>
