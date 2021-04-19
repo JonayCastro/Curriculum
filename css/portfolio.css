@@ -28,11 +28,6 @@
     position: relative;
     transition: all .5s;
 }
-/* .img-page:hover{
-    opacity: .1;
-} */
-
-
 .text-hidden{
     position: absolute;
     top: 50%;

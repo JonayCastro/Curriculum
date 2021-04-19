@@ -1,16 +1,15 @@
 <h1 class="to-upper">formación</h1>
-    
 <div class="main-container" ng-controller="studyController">
     <div class="left-main-container">
         <ul>
-            <li ng-click="goTo('reglados')">Formación Reglada</li>
-            <li ng-click="goTo('no-reglados')">Formación no Reglada</li>
-            <li ng-click="goTo('otros')">Otra Formación</li>
+            <li ng-click="goTo('reglados')">Reglada</li>
+            <li ng-click="goTo('no-reglados')">No Reglada</li>
+            <li ng-click="goTo('otros')">Otras</li>
         </ul>
     </div>
     <div class="right-main-container" id="scroll-main-container">
         <div class="right-main-section">
-            <h2 id="reglados">Formación Reglada</h2>
+            <h2 id="reglados">Reglada</h2>
             <ul class="main-list">
                 <li ng-repeat="linea in reglados">
                     <h3>Titulo: <span class="item-name to-capitalize">{{linea[0]}}</span></h3>
@@ -24,7 +23,7 @@
             </ul>
         </div>
         <div class="right-main-section">
-            <h2 id="no-reglados">Formación No Reglada</h2>
+            <h2 id="no-reglados">No Reglada</h2>
             <ul class="main-list">
                 <li ng-repeat="linea in noReglados">
                     <h3>Titulo: <span class="item-name to-capitalize">{{linea[0]}}</span></h3>
@@ -38,7 +37,7 @@
             </ul>
         </div>
         <div class="right-main-section">
-            <h2 id="otros">Otra Formación</h2>
+            <h2 id="otros">Otras</h2>
             <ul class="main-list">
                 <li ng-repeat="linea in otros">
                     <h3>Titulo: <span class="item-name">{{linea[0]}}</span></h3>

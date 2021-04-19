@@ -10,7 +10,6 @@ main{
     align-content: space-between;
 }
 .left-main-container{
-    /* width: 20%; */
     flex: 1;
     height: 300px;
     border-right: 2px solid var(--border-menu-color);

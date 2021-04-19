@@ -8,25 +8,10 @@ angular.module('appAngular')
         $scope.workSpace = 'Programador Web';
         $scope.phoneSpace = '660520795';
         
-        /* let pathEle = $location.path().replace('/','');
-        let array = ['about','experience','study', 'portfolio'];
-        let ele;
-        if(pathEle === ''){
-            ele = document.getElementById('about');
-            ele.style.backgroundColor = 'var(--body-background-color)';
-        }else{
-            for(i in array){
-                ele = document.getElementById(array[i]);
-                ele.style.backgroundColor = 'var(--header-background-color)';
-                if(pathEle === array[i]){
-                    ele.style.backgroundColor = 'var(--body-background-color)';
-                }
-            }
-        } */
-        
         $scope.goPortfolio = ()=>{
             $location.path('/portfolio');
         };
+        
         $scope.nav = (e)=>{
             path = e.target.id;
             if(path === 'about') $location.path('/about');
@@ -47,7 +32,6 @@ angular.module('appAngular')
                 $scope.firstNameSpace = 'Castro Suárez';
                 $scope.workSpace = 'Programador Web';
             }
-            
         };
 
         $scope.goTo = (id)=>{

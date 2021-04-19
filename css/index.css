@@ -11,9 +11,7 @@
     /* FONTS */
     --principal-font: 'Roboto', sans-serif;
     --second-font: 'Lobster', cursive;
-
 }
-
 *{
     font-family: var(--principal-font);
     box-sizing: border-box;
