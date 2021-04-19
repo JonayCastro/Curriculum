@@ -2,7 +2,7 @@ angular.module('appAngular')
     .controller('portfolioController', function($scope){
         /* 
             Εl formato para $scope.enlaces es:
-            $scope.enlaces = [[0,1,2,3]]
+            $scope.enlaces = [[0,1,2,3,4]]
             0 -> Url del enlaces (atributo ng-href)
             1 -> Texto que se muestra bajo la imagen con :hover
             2 -> Url de la imagen en la ruta assets/img/[nombre de la imagen] (atributo ng-src)

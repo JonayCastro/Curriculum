@@ -5,6 +5,7 @@
     margin-bottom: 10px;
     padding: 30px;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
 }
 
@@ -18,7 +19,7 @@
     vertical-align: top;
 }
 #social-header-container{
-    width: 20%;
+    flex: 1;
     padding: 20px;
 }
 .item-social-container{
@@ -29,14 +30,14 @@
     align-items: center;
     background-color: var(--border-menu-color);
     border-radius: 5px;
-    
 }
 #social-header-container div:nth-child(2){
     margin-top: 10px;
     margin-bottom: 10px;
+    
 }
 #menu-header-container{
-    width: 90%;
+    flex: 4;
     margin-left: 20px;
     display: flex;
     flex-direction: row;

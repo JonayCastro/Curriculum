@@ -10,7 +10,8 @@ main{
     align-content: space-between;
 }
 .left-main-container{
-    width: 20%;
+    /* width: 20%; */
+    flex: 1;
     height: 300px;
     border-right: 2px solid var(--border-menu-color);
     text-align: right;
@@ -29,8 +30,8 @@ main{
 }
 .right-main-container{
     height: 500px;
-    width: 80%;
-    overflow-y: scroll;
+    flex: 5;
+    overflow: auto;
     scroll-behavior: smooth;
 }
 .right-main-section{
@@ -38,7 +39,8 @@ main{
     
 }
 .right-main-section:nth-child(2){
-    margin: 20px inherit;
+    margin: 2% inherit;
+    
 }
 .main-list h3{
     background-color: var(--border-menu-color);
@@ -46,7 +48,7 @@ main{
     padding: 5px;
 }
 .main-list ul{
-    list-style: square inside;
+    list-style: square;
 }
 .item-name{
     text-transform: uppercase;

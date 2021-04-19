@@ -9,8 +9,15 @@
     margin: 10px;
     border-radius: 10px;
     position: relative;
-    
+    transition: all .5s;
     text-align: center;
+}
+.container-page:hover{
+    box-shadow:  10px 10px 20px 2px  rgba(242,173,100,1);
+    transform: translate(-5px, -5px);
+}
+.container-page:hover a img{
+    opacity: .1;
 }
 .img-page{
     width: 200px;
@@ -21,9 +28,10 @@
     position: relative;
     transition: all .5s;
 }
-.img-page:hover{
+/* .img-page:hover{
     opacity: .1;
-}
+} */
+
 
 .text-hidden{
     position: absolute;

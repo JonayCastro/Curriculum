@@ -3,14 +3,14 @@
 <div class="main-container" ng-controller="sperienceController">
     <div class="left-main-container">
         <ul>
-            <li ng-click="goTo('ajena')">Trabajos por Cuenta Ajena</li>
-            <li ng-click="goTo('autonomo')">Trabajos como Autónomo</li>
-            <li ng-click="goTo('otros')">Otro Tipo</li>
+            <li ng-click="goTo('ajena')">Cuenta Ajena</li>
+            <li ng-click="goTo('autonomo')">Autónomo</li>
+            <li ng-click="goTo('otros')">Otros</li>
         </ul>
     </div>
     <div class="right-main-container" id="scroll-main-container">
         <div class="right-main-section">
-            <h2 id="ajena">Trabajos por Cuenta Ajena</h2>
+            <h2 id="ajena">Cuenta Ajena</h2>
             <ul class="main-list">
                 <li ng-repeat="linea in ajeno">
                     <h3>Titulo: <span class="item-name to-capitalize">{{linea[0]}}</span></h3>
@@ -25,7 +25,7 @@
             </ul>
         </div>
         <div class="right-main-section">
-            <h2 id="autonomo">Trabajos como Autónomo</h2>
+            <h2 id="autonomo">Autónomo</h2>
             <ul class="main-list">
                 <li ng-repeat="linea in autonomo">
                     <h3>Titulo: <span class="item-name to-capitalize">{{linea[0]}}</span></h3>
@@ -40,7 +40,7 @@
             </ul>
         </div>
         <div class="right-main-section">
-            <h2 id="otros">Otro Tipo</h2>
+            <h2 id="otros">Otros</h2>
             <ul class="main-list">
                 <li ng-repeat="linea in otros">
                     <h3>Titulo: <span class="item-name to-capitalize">{{linea[0]}}</span></h3>
