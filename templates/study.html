@@ -1,6 +1,11 @@
 <h1 class="to-upper">formación</h1>
 <div class="main-container" ng-controller="studyController">
-    <div class="left-main-container">
+    <div class="only-mobile">
+        <input type="checkbox" name="hide-menu" ng-click="check = !check" class="check-select position" checked>
+        <i class="fas fa-bars position"></i>
+        <i class="fa fa-times position"></i>
+    </div>
+    <div class="left-main-container bigSmall" ng-class="check">
         <ul>
             <li ng-click="goTo('reglados')">Reglada</li>
             <li ng-click="goTo('no-reglados')">No Reglada</li>

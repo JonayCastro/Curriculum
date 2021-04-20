@@ -7,7 +7,7 @@ angular.module('appAngular')
         $scope.emailSpace = 'zeven8540@gmail.com';
         $scope.workSpace = 'Programador Web';
         $scope.phoneSpace = '660520795';
-        
+
         $scope.goPortfolio = ()=>{
             $location.path('/portfolio');
         };

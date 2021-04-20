@@ -14,6 +14,7 @@ main{
     height: 300px;
     border-right: 2px solid var(--border-menu-color);
     text-align: right;
+    transition: all .25s ease-in;
 }
 .left-main-container ul{
     list-style: none;
@@ -35,11 +36,9 @@ main{
 }
 .right-main-section{
     margin-left: 20px;
-    
 }
 .right-main-section:nth-child(2){
     margin: 2% inherit;
-    
 }
 .main-list h3{
     background-color: var(--border-menu-color);
@@ -51,4 +50,7 @@ main{
 }
 .item-name{
     text-transform: uppercase;
+}
+.only-mobile{
+    display: none;
 }

@@ -1,6 +1,25 @@
-@media (max-width: 400px) and (orientation: portrait) 
+@media (max-width: 500px) 
 {
     footer{
         flex-direction: column;
+    }
+    .only-mobile{
+        display: block;
+    }
+    .bigSmall.true{
+        opacity: 1;
+    }
+    .bigSmall.true ~ .right-main-container{
+        opacity: .1;
+        pointer-events: none;
+    }
+    .main-container{
+        position: relative;
+    }
+    .left-main-container{
+        position: absolute;
+        opacity: 0;
+        width: 40%;
+        top: 25px;
     }
 }
