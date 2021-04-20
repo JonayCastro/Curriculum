@@ -1,4 +1,4 @@
-@media (max-width: 500px) 
+@media (max-width: 800px) 
 {
     footer{
         flex-direction: column;
@@ -19,7 +19,7 @@
     .left-main-container{
         position: absolute;
         opacity: 0;
-        width: 40%;
+        width: 150px;
         top: 25px;
     }
 }
