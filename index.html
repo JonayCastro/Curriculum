@@ -19,8 +19,9 @@
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/about.css">
     <link rel="stylesheet" href="css/portfolio.css">
+    <link rel="stylesheet" href="css/menu-main-mobile.css">
+    <link rel="stylesheet" href="css/menu-header-mobile.css">
     <link rel="stylesheet" href="css/media-query.css">
-    <link rel="stylesheet" href="css/menu-mobile.css">
     <!-- GOOGLE FONTS -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@300&display=swap" rel="stylesheet">
@@ -42,10 +43,15 @@
     <script src="angular/footerController.js"></script>
     <script src="angular/portfolioController.js"></script>
 </head>
-<body  ng-controller="controller">
+<body  ng-controller="controller" >
     <header>
         <div id="up-header" class="item-header">
-            <div id="social-header-container">
+            <div id="toggle-social" class="only-mobile" ng-click="show = !show">
+                <input type="checkbox" name="check-header" id="check-header" class="toggle-social-item" ng-checked="show">
+                <i class="fas fa-caret-left toggle-social-item"></i>
+                <i class="fas fa-caret-right toggle-social-item"></i>
+            </div>
+            <div id="social-header-container" ng-class="show">
                 <div class="item-social-container">
                     <a href="https://github.com/JonayCastro" target="_blank"><i class="fab fa-github-square item-social"></i></a>
                 </div>
@@ -55,8 +61,11 @@
                 <div class="item-social-container">
                     <a href="https://www.linkedin.com/in/jonaycastro/"><i class="fab fa-linkedin item-social"></i></a>
                 </div>
+                
             </div>
+            
             <div id="menu-header-container">
+               
                 <ul>
                     <li id="about" ng-click="nav($event)">SOBRE MI</li>
                     <li id="experience" ng-click="nav($event)">EXPERIENCIA</li>

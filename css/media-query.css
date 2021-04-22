@@ -22,4 +22,19 @@
         width: 150px;
         top: 25px;
     }
+    .text-below{
+        display: none;
+    }
+    .text-hidden{
+        display: block;
+    }
+    #social-header-container{
+        position: absolute;
+        transition: transform .5s, opacity .10s;
+        transform: translate(-200px);
+        opacity: 0;
+    }
+    #menu-header-container{
+        height: 100px;
+    }
 }
