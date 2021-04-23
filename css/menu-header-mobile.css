@@ -28,8 +28,9 @@
 #check-header:not(:checked) ~ .fa-caret-left{
     display: none;
 }
-#social-header-container.true{
+/* La parte comentada se debe habilitar para que funcione el botón para ocultar */
+/* #social-header-container.true{
     transform: translate(0px);
     opacity: 1;
     position: relative;
-}
+} */

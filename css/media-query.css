@@ -16,6 +16,7 @@
     .main-container{
         position: relative;
     }
+    
     .left-main-container{
         position: absolute;
         opacity: 0;
@@ -28,13 +29,20 @@
     .text-hidden{
         display: block;
     }
+    #up-header{
+        flex-direction: column;
+    }
     #social-header-container{
+        width: 200px;
+    }
+    /* La parte comentada se debe habilitar para que funcione el botón para ocultar */
+    /* #social-header-container{
         position: absolute;
         transition: transform .5s, opacity .10s;
         transform: translate(-200px);
         opacity: 0;
     }
     #menu-header-container{
-        height: 100px;
-    }
+        height: 80px;
+    } */
 }
