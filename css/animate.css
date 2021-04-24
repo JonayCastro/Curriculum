@@ -11,13 +11,6 @@
     animation-name: blur;
     animation-duration: 1s;
 }
-.item-social{
-    transition: all .5s;
-}
-.item-social:hover{
-    transform: scale(2);
-    vertical-align: top;
-}
 #btn-change-data{
     transition: all .25s ease-in;
 }

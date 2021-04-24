@@ -31,10 +31,12 @@
     }
     #up-header{
         flex-direction: column;
+        align-items: stretch;
     }
     #social-header-container{
-        width: 200px;
+        width: 50%;
     }
+    
     /* La parte comentada se debe habilitar para que funcione el botón para ocultar */
     /* #social-header-container{
         position: absolute;
