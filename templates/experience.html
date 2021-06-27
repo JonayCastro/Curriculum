@@ -7,56 +7,30 @@
     </div>
     <div class="left-main-container bigSmall" ng-class="check">
         <ul>
-            <li ng-click="goTo('ajena')">Cuenta Ajena</li>
-            <li ng-click="goTo('autonomo')">Autónomo</li>
-            <li ng-click="goTo('otros')">Otros</li>
+            <li ng-click="setCriterio('', 'Todo')">Todo</li>
+            <li ng-click="setCriterio('ajena', 'Cuenta Ajena')">Cuenta Ajena</li>
+            <li ng-click="setCriterio('autonomo', 'Cuenta Propia')">Autónomo</li>
+            <li ng-click="setCriterio('otro', 'Otros Contratos')">Otros</li>
         </ul>
     </div>
     <div class="right-main-container" id="scroll-main-container">
-        <div class="right-main-section">
-            <h2 id="ajena">Cuenta Ajena</h2>
+        <div class="right-main-section" >
+            <h2>{{title}}</h2>
             <ul class="main-list">
-                <li ng-repeat="linea in ajeno">
-                    <h3>Titulo: <span class="item-name to-capitalize">{{linea[0]}}</span></h3>
+                <li ng-repeat="linea in experience | filter:linea.tipo=criterio">
+                    <h3>Titulo: <span class="item-name to-capitalize">{{linea.titulo}}</span></h3>
                     <ul>
-                        <li>Inicio: <span class="to-capitalize">{{linea[1]}}</span></li>
-                        <li>Fin: <span class="to-capitalize">{{linea[2]}}</span></li>
-                        <li>Empresa: <span class="to-capitalize">{{linea[3]}}</span></li>
-                        <li>Categoría: <span class="to-capitalize">{{linea[4]}}</span></li>
-                        <li>Observaciones: <span class="to-capitalize">{{linea[5]}}</span></li>
+                        <li>Inicio: <span class="to-capitalize dat-text">{{linea.inicioContrato}}</span></li>
+                        <li>Fin: <span class="to-capitalize dat-text">{{linea.finContrato}}</span></li>
+                        <li>Empresa: <span class="to-capitalize dat-text">{{linea.empresa}}</span></li>
+                        <li>Categoría: <span class="to-capitalize dat-text">{{linea.puesto}}</span></li>
+                        <li>Personal a Cargo: <span class="to-capitalize dat-text">{{linea.personalAcargo}}</span></li>
+                        <li>Funciones: <span class="to-capitalize dat-text">{{linea.funciones}}</span></li>
+                        <li>Observaciones: <span class="to-capitalize dat-text">{{linea.comentario}}</span></li>
                     </ul>
                 </li>
             </ul>
         </div>
-        <div class="right-main-section">
-            <h2 id="autonomo">Autónomo</h2>
-            <ul class="main-list">
-                <li ng-repeat="linea in autonomo">
-                    <h3>Titulo: <span class="item-name to-capitalize">{{linea[0]}}</span></h3>
-                    <ul>
-                        <li>Inicio: <span class="to-capitalize">{{linea[1]}}</span></li>
-                        <li>Fin: <span class="to-capitalize">{{linea[2]}}</span></li>
-                        <li>Empresa: <span class="to-capitalize">{{linea[3]}}</span></li>
-                        <li>Categoría: <span class="to-capitalize">{{linea[4]}}</span></li>
-                        <li>Observaciones: <span class="to-capitalize">{{linea[5]}}</span></li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-        <div class="right-main-section">
-            <h2 id="otros">Otros</h2>
-            <ul class="main-list">
-                <li ng-repeat="linea in otros">
-                    <h3>Titulo: <span class="item-name to-capitalize">{{linea[0]}}</span></h3>
-                    <ul>
-                        <li>Inicio: <span class="to-capitalize">{{linea[1]}}</span></li>
-                        <li>Fin: <span class="to-capitalize">{{linea[2]}}</span></li>
-                        <li>Empresa: <span class="to-capitalize">{{linea[3]}}</span></li>
-                        <li>Categoría: <span class="to-capitalize">{{linea[4]}}</span></li>
-                        <li>Observaciones: <span class="to-capitalize">{{linea[5]}}</span></li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
+        
     </div>
 </div>

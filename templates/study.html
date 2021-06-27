@@ -7,50 +7,26 @@
     </div>
     <div class="left-main-container bigSmall" ng-class="check">
         <ul>
-            <li ng-click="goTo('reglados')">Reglada</li>
-            <li ng-click="goTo('no-reglados')">No Reglada</li>
-            <li ng-click="goTo('otros')">Otras</li>
+            <li ng-click="setCriterio('', 'Todo')">Todo</li>
+            <li ng-click="setCriterio('reglada', 'Formación Reglada')">Reglada</li>
+            <li ng-click="setCriterio('no-reglada', 'Formación No Reglada')">No Reglada</li>
+            <li ng-click="setCriterio('otra', 'Otra')">Otras</li>
         </ul>
     </div>
     <div class="right-main-container" id="scroll-main-container">
         <div class="right-main-section">
-            <h2 id="reglados">Reglada</h2>
+            <h2>{{title}}</h2>
             <ul class="main-list">
-                <li ng-repeat="linea in reglados">
-                    <h3>Titulo: <span class="item-name to-capitalize">{{linea[0]}}</span></h3>
+                <li ng-repeat="linea in study | filter:linea.tipoFormacion=criterio">
+                    <h3>Titulo: <span class="item-name to-capitalize">{{linea.nombre}}</span></h3>
                     <ul>
-                        <li>Inicio: <span class="to-capitalize">{{linea[1]}}</span></li>
-                        <li>Fin: <span class="to-capitalize">{{linea[2]}}</span></li>
-                        <li>Centro: <span class="to-capitalize">{{linea[3]}}</span></li>
-                        <li>Observaciones: <span class="to-capitalize">{{linea[4]}}</span></li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-        <div class="right-main-section">
-            <h2 id="no-reglados">No Reglada</h2>
-            <ul class="main-list">
-                <li ng-repeat="linea in noReglados">
-                    <h3>Titulo: <span class="item-name to-capitalize">{{linea[0]}}</span></h3>
-                    <ul>
-                        <li>Inicio: <span class="to-capitalize">{{linea[1]}}</span></li>
-                        <li>Fin: <span class="to-capitalize">{{linea[2]}}</span></li>
-                        <li>Centro: <span class="to-capitalize">{{linea[3]}}</span></li>
-                        <li>Observaciones: <span class="to-capitalize">{{linea[4]}}</span></li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-        <div class="right-main-section">
-            <h2 id="otros">Otras</h2>
-            <ul class="main-list">
-                <li ng-repeat="linea in otros">
-                    <h3>Titulo: <span class="item-name">{{linea[0]}}</span></h3>
-                    <ul>
-                        <li>Inicio: <span class="to-capitalize">{{linea[1]}}</span></li>
-                        <li>Fin: <span class="to-capitalize">{{linea[2]}}</span></li>
-                        <li>Centro: <span class="to-capitalize">{{linea[3]}}</span></li>
-                        <li>Observaciones: <span class="to-capitalize">{{linea[4]}}</span></li>
+                        <li>Inicio: <span class="to-capitalize dat-text">{{linea.inicio}}</span></li>
+                        <li>Fin: <span class="to-capitalize dat-text">{{linea.fin}}</span></li>
+                        <li>Centro: <span class="to-capitalize dat-text">{{linea.centro}}</span></li>
+                        <li>Certificado: <a href="{{linea.certificado}}" class="item-link" target="_blank">{{linea.certificado}}</a></li>
+                        <li>Credencial: <span class="to-capitalize dat-text">{{linea.idCredencial}}</span></li>
+                        <li>Vencimiento: <span class="to-capitalize dat-text">{{linea.vencimientoCredencial}}</span></li>
+                        <li>Observaciones: <span class="to-capitalize dat-text">{{linea.observaciones}}</span></li>
                     </ul>
                 </li>
             </ul>

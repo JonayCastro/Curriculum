@@ -1,0 +1,211 @@
+[
+    {
+        "nombre":"Técnico Grado Medio Instalaciones Eléctricas y Automáticas",
+        "inicio":"Octubre 2019",
+        "fin":"Cursando",
+        "centro":"IES La Laboral",
+        "observaciones":"",
+        "certificado":"",
+        "idCredencial":"",
+        "vencimientoCredencial":"Sin Fecha de Vencimiento",
+        "tipoFormacion":"reglada"
+    },
+    {
+        "nombre":"Programación Front-End con HTML5, CSS3 y JavaScript",
+        "inicio":"Noviembre 2020",
+        "fin":"Cursando",
+        "centro":"TokioSchool",
+        "observaciones":"",
+        "certificado":"",
+        "idCredencial":"",
+        "vencimientoCredencial":"Sin Fecha de Vencimiento",
+        "tipoFormacion":"reglada"
+    },
+    {
+        "nombre":"PET English B1",
+        "inicio":"Junio 2021",
+        "fin":"Cursando",
+        "centro":"TokioSchool",
+        "observaciones":"",
+        "certificado":"",
+        "idCredencial":"",
+        "vencimientoCredencial":"Sin Fecha de Vencimiento",
+        "tipoFormacion":"reglada"
+    },
+    {
+        "nombre":"Aprende SCRUM",
+        "inicio":"Junio 2021",
+        "fin":"Junio 2021",
+        "centro":"LinkedIn Learning ⋅ Course Certificate",
+        "observaciones":"",
+        "certificado":"https://www.linkedin.com/learning/aprende-scrum",
+        "idCredencial":"AQM56vofGkVi1LCP8AjtkwGb_wJg",
+        "vencimientoCredencial":"Sin Fecha de Vencimiento",
+        "tipoFormacion":"reglada"
+    },
+    {
+        "nombre":"Conviértete en desarrollador web full-stack",
+        "inicio":"Junio 2021",
+        "fin":"Junio 2021",
+        "centro":"LinkedIn Learning ⋅ Course Certificate",
+        "observaciones":"",
+        "certificado":"https://www.linkedin.com/learning/paths/conviertete-en-desarrollador-web-full-stack",
+        "idCredencial":"AQM56vofGkVi1LCP8AjtkwGb_wJg",
+        "vencimientoCredencial":"Sin Fecha de Vencimiento",
+        "tipoFormacion":"reglada"
+    },
+    {
+        "nombre":"CCNA: Introduction to Networks",
+        "inicio":"Mayo 2021",
+        "fin":"Mayo 2021",
+        "centro":"Cisco Networking Academy",
+        "observaciones":"",
+        "certificado":"https://www.credly.com/badges/49b7a2a1-c7ef-4ab4-a5fd-31e573552e91?source=linked_in_profile",
+        "idCredencial":"",
+        "vencimientoCredencial":"Sin Fecha de Vencimiento",
+        "tipoFormacion":"reglada"
+    },
+    {
+        "nombre":"Desarrollo web: Control de calidad automatizado",
+        "inicio":"Mayo 2021",
+        "fin":"Mayo 2021",
+        "centro":"LinkedIn Learning ⋅ Course Certificate",
+        "observaciones":"",
+        "certificado":"https://www.linkedin.com/learning/desarrollo-web-control-de-calidad-automatizado",
+        "idCredencial":"AXf7AACf_bZK79sv0rX7Cz_TmGgf",
+        "vencimientoCredencial":"Sin Fecha de Vencimiento",
+        "tipoFormacion":"reglada"
+    },
+    {
+        "nombre":"GitHub para programadores",
+        "inicio":"Mayo 2021",
+        "fin":"Mayo 2021",
+        "centro":"LinkedIn Learning ⋅ Course Certificate",
+        "observaciones":"",
+        "certificado":"https://www.linkedin.com/learning/github-para-programadores-2",
+        "idCredencial":"ATupRnHgG2K3R5STFZsHFmArSlbC",
+        "vencimientoCredencial":"Sin Fecha de Vencimiento",
+        "tipoFormacion":"reglada"
+    },
+    {
+        "nombre":"MySQL esencial",
+        "inicio":"Mayo 2021",
+        "fin":"Mayo 2021",
+        "centro":"LinkedIn Learning ⋅ Course Certificate",
+        "observaciones":"",
+        "certificado":"https://www.linkedin.com/learning/mysql-esencial",
+        "idCredencial":"AazBGzHzcCShwPHY8OVLVEAy-NJo",
+        "vencimientoCredencial":"Sin Fecha de Vencimiento",
+        "tipoFormacion":"reglada"
+    },
+    {
+        "nombre":"Node.js esencial",
+        "inicio":"Mayo 2021",
+        "fin":"Mayo 2021",
+        "centro":"LinkedIn Learning ⋅ Course Certificate",
+        "observaciones":"",
+        "certificado":"https://www.linkedin.com/learning/node-js-esencial",
+        "idCredencial":"AVjAkuKETWIIseDIFrd4Ey9db7xm",
+        "vencimientoCredencial":"Sin Fecha de Vencimiento",
+        "tipoFormacion":"reglada"
+    },
+    {
+        "nombre":"Fundamentos del desarrollo web: Full Stack o Front-end",
+        "inicio":"Abril 2021",
+        "fin":"Abril 2021",
+        "centro":"LinkedIn Learning ⋅ Course Certificate",
+        "observaciones":"",
+        "certificado":"https://www.linkedin.com/learning/fundamentos-del-desarrollo-web-full-stack-o-front-end",
+        "idCredencial":"ARJKebURMSQKl4VVOnGAVopjIu7h",
+        "vencimientoCredencial":"Sin Fecha de Vencimiento",
+        "tipoFormacion":"reglada"
+    },
+    {
+        "nombre":"JavaScript avanzado: Buenas prácticas",
+        "inicio":"Abril 2021",
+        "fin":"Abril 2021",
+        "centro":"LinkedIn Learning ⋅ Course Certificate",
+        "observaciones":"",
+        "certificado":"https://www.linkedin.com/learning/javascript-avanzado-buenas-practicas",
+        "idCredencial":"ARJ3mLnwjrlOlCQct8HydQ6EQLN4",
+        "vencimientoCredencial":"Sin Fecha de Vencimiento",
+        "tipoFormacion":"reglada"
+    },
+    {
+        "nombre":"JavaScript avanzado: Expresiones regulares",
+        "inicio":"Abril 2021",
+        "fin":"Abril 2021",
+        "centro":"LinkedIn Learning ⋅ Course Certificate",
+        "observaciones":"",
+        "certificado":"https://www.linkedin.com/learning/javascript-avanzado-expresiones-regulares",
+        "idCredencial":"AYBgbIiIlAZpFqHCuzbUOjyz1F_a",
+        "vencimientoCredencial":"Sin Fecha de Vencimiento",
+        "tipoFormacion":"reglada"
+    },
+    {
+        "nombre":"JavaScript esencial",
+        "inicio":"Abril 2021",
+        "fin":"Abril 2021",
+        "centro":"LinkedIn Learning ⋅ Course Certificate",
+        "observaciones":"",
+        "certificado":"https://www.linkedin.com/learning/javascript-esencial",
+        "idCredencial":"AbXGfazsyXKayCR0SOkHE3iQ19kP",
+        "vencimientoCredencial":"Sin Fecha de Vencimiento",
+        "tipoFormacion":"reglada"
+    },
+    {
+        "nombre":"JavaScript Algorithms and Data Structures",
+        "inicio":"Febrero 2021",
+        "fin":"Febrero 2021",
+        "centro":"freeCodeCamp",
+        "observaciones":"",
+        "certificado":"https://freecodecamp.org/espanol/certification/zeven/javascript-algorithms-and-data-structures",
+        "idCredencial":"",
+        "vencimientoCredencial":"Sin Fecha de Vencimiento",
+        "tipoFormacion":"reglada"
+    },
+    {
+        "nombre":"Programación moderna con python",
+        "inicio":"Febrero 2021",
+        "fin":"Febrero 2021",
+        "centro":"KeepCoding",
+        "observaciones":"",
+        "certificado":"https://plataforma.keepcoding.io/courses/1224054/certificate?utm_source=student_mailer&utm_medium=email&utm_campaign=issued_certificate_notification",
+        "idCredencial":"cert_sl2c5l00",
+        "vencimientoCredencial":"Sin Fecha de Vencimiento",
+        "tipoFormacion":"reglada"
+    },
+    {
+        "nombre":"Responsive Web Design",
+        "inicio":"Junio 2020",
+        "fin":"Junio 2020",
+        "centro":"freeCodeCamp",
+        "observaciones":"",
+        "certificado":"https://freecodecamp.org/certification/zeven/responsive-web-design",
+        "idCredencial":"",
+        "vencimientoCredencial":"Sin Fecha de Vencimiento",
+        "tipoFormacion":"reglada"
+    },
+    {
+        "nombre":"Introducción al desarrollo web II",
+        "inicio":"Abril 2020",
+        "fin":"Abril 2020",
+        "centro":"Google Actívate",
+        "observaciones":"",
+        "certificado":"https://learndigital.withgoogle.com/activate/validate-certificate-code",
+        "idCredencial":"PHV MQ3 EWN",
+        "vencimientoCredencial":"Sin Fecha de Vencimiento",
+        "tipoFormacion":"reglada"
+    },
+    {
+        "nombre":"Introducción al desarrollo web I",
+        "inicio":"Abril 2020",
+        "fin":"Junio 2019",
+        "centro":"Google Actívate",
+        "observaciones":"",
+        "certificado":"https://learndigital.withgoogle.com/activate/validate-certificate-code",
+        "idCredencial":"9AZ BRD 67R",
+        "vencimientoCredencial":"Sin Fecha de Vencimiento",
+        "tipoFormacion":"reglada"
+    }
+]

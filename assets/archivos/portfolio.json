@@ -1,0 +1,23 @@
+[
+    {
+        "url":"https://jonaycastro.github.io/ConversorUnidades/",
+        "hideText":"Conversor de Unidades",
+        "pathImg":"assets/img/unidades.jpg",
+        "altText":"imagen fotovoltaica",
+        "imgTitle":"Enlace a Conversor de unidades"
+    },
+    {
+        "url":"https://jonaycastro.github.io/CalculadoraFotovoltaica/",
+        "hideText":"Calculadora Fotovoltaica",
+        "pathImg":"assets/img/fotovoltaica.jpg",
+        "altText":"unidades de medida",
+        "imgTitle":"Enlace a Calculadora Fotovoltaica"
+    },
+    {
+        "url":"https://jonaycastro.github.io/Lift/",
+        "hideText":"Simulador de Ascensor",
+        "pathImg":"assets/img/ascensor.jpg",
+        "altText":"animación de ascensor",
+        "imgTitle":"Enlace a Simulador de Ascensor"
+    }
+]

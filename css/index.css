@@ -36,7 +36,12 @@ header,footer{
 .to-capitalize{
     text-transform: capitalize;
 }
-
+.dat-text{
+    color:crimson
+}
+.item-link:link, .item-link:visited, .item-link:active{
+    color:crimson;
+}
 .my-link{
     text-decoration: none;
 }

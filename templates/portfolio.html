@@ -1,10 +1,10 @@
 <h1 class="to-upper">portfolio</h1>
 <div id="portfolio-container" ng-controller="portfolioController">
-    <div class="container-page" ng-repeat="enlace in enlaces">
-        <p class="text-hidden">{{enlace[1]}}</p>
-        <p class="text-below">{{enlace[1]}}</p>
-        <a class="link-page" ng-href="{{enlace[0]}}" target="_blank" rel="noopener noreferrer">
-            <img class="img-page" ng-src="{{enlace[2]}}" alt="{{enlace[3]}}" title="{{enlace[4]}}">
+    <div class="container-page" ng-repeat="enlace in portfolio">
+        <p class="text-hidden">{{enlace.hideText}}</p>
+        <p class="text-below">{{enlace.hideText}}</p>
+        <a class="link-page" ng-href="{{enlace.url}}" target="_blank" rel="noopener noreferrer">
+            <img class="img-page" ng-src="{{enlace.pathImg}}" alt="{{enlace.altText}}" title="{{enlace.imgTitle}}">
         </a>
     </div>
 </div>

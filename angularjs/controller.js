@@ -1,6 +1,8 @@
+'use strict';
+
 angular.module('appAngular')
     
-    .controller('controller',function($scope, $location, $anchorScroll){
+    .controller('controller',function($scope, $location, $anchorScroll, $http){
 
         $scope.nameSpace = 'Jonay Z.';
         $scope.firstNameSpace = 'Castro Suárez';
@@ -13,7 +15,7 @@ angular.module('appAngular')
         };
         
         $scope.nav = (e)=>{
-            path = e.target.id;
+            let path = e.target.id;
             if(path === 'about') $location.path('/about');
             else if(path === 'experience') $location.path('/experience');
             else if(path === 'study') $location.path('/study');
@@ -34,11 +36,11 @@ angular.module('appAngular')
             }
         };
 
-        $scope.goTo = (id)=>{
+        /* $scope.goTo = (id)=>{
             if($location.hash() !== id){
                 $location.hash(id);
             }else{
             $anchorScroll();
             }
-        };
+        }; */
     });

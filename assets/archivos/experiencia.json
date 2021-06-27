@@ -1,0 +1,101 @@
+[
+    {
+        "titulo":"Montaje y reparación de ascensores",
+        "puesto":"Oficial de 2ª",
+        "funciones":"",
+        "tipo":"ajena",
+        "personalAcargo":"",
+        "inicioContrato":"Julio 2018",
+        "finContrato":"En la Actualidad",
+        "empresa":"Integra Ascensores S.L.",
+        "comentario":""
+    },
+    {
+        "titulo":"Montaje y reparación de ascensores",
+        "puesto":"Autónomo",
+        "funciones":"",
+        "tipo":"autonomo",
+        "personalAcargo":"",
+        "inicioContrato":"Junio 2016",
+        "finContrato":"Junio 2018",
+        "empresa":"Multimarca",
+        "comentario":""
+    },
+    {
+        "titulo":"Montaje y reparación de ascensores",
+        "puesto":"Oficial 3ª",
+        "funciones":"",
+        "tipo":"ajena",
+        "personalAcargo":"",
+        "inicioContrato":"2010",
+        "finContrato":"Junio 2016",
+        "empresa":"Orona",
+        "comentario":""
+    },
+    {
+        "titulo":"Montaje y reparación de ascensores",
+        "puesto":"Autónomo",
+        "funciones":"",
+        "tipo":"autonomo",
+        "personalAcargo":"",
+        "inicioContrato":"2009",
+        "finContrato":"2010",
+        "empresa":"Otis",
+        "comentario":"Era autónomo dependiente"
+    },
+    {
+        "titulo":"Montaje y reparación de ascensores",
+        "puesto":"Oficial 3ª",
+        "funciones":"",
+        "tipo":"ajena",
+        "personalAcargo":"",
+        "inicioContrato":"2008",
+        "finContrato":"2009",
+        "empresa":"Montajes Reco S.L.",
+        "comentario":"La empresa trabaja en exclusiva para Otis"
+    },
+    {
+        "titulo":"Montaje y reparación de ascensores",
+        "puesto":"Autónomo",
+        "funciones":"",
+        "tipo":"autonomo",
+        "personalAcargo":"1",
+        "inicioContrato":"2006",
+        "finContrato":"2008",
+        "empresa":"Trabajaba en exclusiva con Kone",
+        "comentario":""
+    },
+    {
+        "titulo":"Instalaciónes eléctricas ",
+        "puesto":"Oficial de 2ª",
+        "funciones":"",
+        "tipo":"ajena",
+        "personalAcargo":"1",
+        "inicioContrato":"Septiembre 2005",
+        "finContrato":"Septiembre 2006",
+        "empresa":"Instalaciones eléctricas Delgado Lugo S.L.",
+        "comentario":"Realizaba funciones de oficial de 1ª"
+    },
+    {
+        "titulo":"Fuerzas Armadas",
+        "puesto":"Soldado",
+        "funciones":"",
+        "tipo":"ajena",
+        "personalAcargo":"1",
+        "inicioContrato":"Noviembre 2001",
+        "finContrato":"Agosto 2005",
+        "empresa":"Fuerzas Armadas de España",
+        "comentario":""
+    },
+    {
+        "titulo":"Falsos techos",
+        "puesto":"Peón",
+        "funciones":"",
+        "tipo":"ajena",
+        "personalAcargo":"1",
+        "inicioContrato":"Enero 2000",
+        "finContrato":"Septiembre 2001",
+        "empresa":"Falsos techos y tabiques isla de Tenerife S.L.",
+        "comentario":""
+    }
+]
