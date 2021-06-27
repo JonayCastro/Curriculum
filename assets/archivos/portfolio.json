@@ -19,5 +19,12 @@
         "pathImg":"assets/img/ascensor.jpg",
         "altText":"animación de ascensor",
         "imgTitle":"Enlace a Simulador de Ascensor"
+    },
+    {
+        "url":"https://jonaycastro.github.io/proyecto_final_tokio/",
+        "hideText":"Proyecto Final TokioSchool",
+        "pathImg":"assets/img/tienda.jpg",
+        "altText":"tienda online de mascarillas",
+        "imgTitle":"Enlace a proyecto tienda de mascarillas"
     }
 ]
